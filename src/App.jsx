@@ -6,7 +6,7 @@ import Somu from './pages/Somu.jsx'
 import About from './pages/About.jsx'
 import Myportfolio from './pages/Myportfolio.jsx'
 import Client from './pages/Client.jsx'
-import Footer from './pages/footer.jsx'
+import Footer from './pages/Footer.jsx'
 function App() {
   return (
     <>
