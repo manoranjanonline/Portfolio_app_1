@@ -1,0 +1,66 @@
+.skhills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.skhilltitle{
+    font-size:3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.skhilldesc{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+    
+}
+.skhillbars{
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+
+}
+.skhillbar{
+   display: flex;
+   margin: 1rem;
+   padding: 1.5rem;
+   border-radius: .5rem;
+   background: rgb(50 , 50 , 50);
+}
+.skhillbarimg{
+   object-fit: cover;
+   height: 3rem;
+   width: 3rem;
+   margin-right: 2rem;
+}
+.skhillbartext>p{
+   font-size: .9rem;
+   font-weight: 200;
+}
+@media screen and(max-width:720px){
+    .skhillbartext>p{
+        font-size: 2vw;
+
+    }
+}
+@media screen and(max-width:480px){
+    .skhillbartext>p{
+        font-size: 3vw;
+    }
+    .skhillbarimg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skhillbartext h2{
+        font-size: 5vw;
+    }
+}
