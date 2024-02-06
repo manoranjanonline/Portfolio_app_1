@@ -5,7 +5,7 @@ import Contractimg from "../assets/contact.png"
 import {Link} from 'react-scroll'
 import Menu from '../assets/menu.png'
 const Nav = ()=>{
-  const [showMenu ,setShowMenu] = useState(true)
+  const [showMenu ,setShowMenu] = useState(false)
   return (
   <>
   <nav className="navbar">
